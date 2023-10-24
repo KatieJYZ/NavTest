@@ -1,0 +1,25 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_search">
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.websarva.wings.android.navtest.SearchFragment"
+        android:label="検索"
+        tools:layout="@layout/fragment_search"
+        />
+
+    <fragment
+        android:id="@+id/navigation_food_management"
+        android:name="com.websarva.wings.android.navtest.FoodManagementFragment"
+        android:label="食材管理"
+        tools:layout="@layout/fragment_food_management" />
+
+    <fragment
+        android:id="@+id/navigation_user_info"
+        android:name="com.websarva.wings.android.navtest.UserInfoFragment"
+        android:label="ユーザー情報"
+        tools:layout="@layout/fragment_user_info" />
+</navigation>

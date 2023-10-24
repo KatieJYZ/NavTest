@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">NavTest</string>
+    <string name="tv_nav_search">レシピ検索</string>
+    <string name="tv_nav_management">食材管理</string>
+    <string name="tv_nav_userinfo">ユーザー情報</string>
+</resources>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/tv_nav_search" />
+
+    <item
+        android:id="@+id/navigation_food_management"
+        android:icon="@drawable/ic_food_management"
+        android:title="@string/tv_nav_management" />
+
+    <item
+        android:id="@+id/navigation_user_info"
+        android:icon="@drawable/ic_user_info"
+        android:title="@string/tv_nav_userinfo" />
+</menu>
